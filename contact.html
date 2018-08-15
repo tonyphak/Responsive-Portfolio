@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+   <head>
+      <meta charset="UTF-8">
+      <title>My Contact</title>
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <style>
+         h1{
+         background: #4aaaa5;
+         width: 250px;
+         text-align: center;
+         padding: 30px;
+         color: #ffffff;
+         font-size: 24px;
+         position: absolute;
+         bottom: 0;
+         left: 457px;
+         } 
+         header{
+         background: #ffffff;
+         border-bottom: solid 1px #cccccc;
+         height: 90px;
+         position: relative;
+         }
+         nav {
+         float: right;
+         position: absolute;
+         top: 35px;
+         right: 450px;
+         color: #777777;
+         font-size: 18px;
+         }
+         nav li+li:before{
+         content: " | ";
+         padding: 0 15px;
+         }
+         h3{
+         font-size: 14px;
+         position: absolute;
+         bottom: 0;  
+         right: 50%; 
+         }
+         footer{
+         position: relative;
+         background: #666666;
+         height: 50px;
+         margin-top: -50px;
+         color: #777777;
+         border-top: #4aaaa5 solid 5px;
+         width: 100%;
+         }
+      </style>
+   </head>
+   <body>
+      <header>
+         <div>
+            <h1>
+               Tony Phakasoum
+            </h1>
+            <nav>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+             </nav>
+         </div>
+      </header>
+      <div class="wrapper3">
+         <div class="content">
+            <h2>Contact</h2>
+            <div class="form">
+               <label for="name">Name</label>
+               <input type="text" id="name" name="fullname" placeholder="John Smith">
+               <label for="lname">Email</label>
+               <input type="text" id="email" name="Email" placeholder="example@gmail.com">
+               <label for="subject">Message</label>
+               <textarea id="subject" name="subject" style="height:200px"></textarea>
+               <input type="submit" value="Submit">
+            </div>
+         </div>
+      </div>
+      </div>
+      <footer>
+         <h3>Copyright @</h3>
+      </footer>
+   </body>
+</html>
