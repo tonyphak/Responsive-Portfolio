@@ -290,6 +290,11 @@ nav {
   text-align: center;
 }
 
+nav a{
+  position: relative;
+  z-index: 2;
+}
+
 }
 /** nav a not centering at 640px**/
 
