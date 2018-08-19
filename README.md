@@ -1,2 +1,2 @@
-# Basic-Portfolio
-HW Week 1
+# Responsive-Portfolio
+HW Week 2
